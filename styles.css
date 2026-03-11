@@ -25,8 +25,13 @@
     font-display: swap;
 }
 
+body {
+    margin: 0;
+}
+
 .container-left {
     height: 100vh;
     width: calc(100vw/3); 
     background-image: url("./images/nature-casey-horner.jpg");
+    background-size: cover;
 }
