@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Creato Display';
+    font-family: 'Creato';
     src: url('./fonts/CreatoDisplay-Regular.woff2') format('woff2'),
         url('./fonts/CreatoDisplay-Regular.woff') format('woff');
     font-weight: normal;
@@ -28,6 +28,9 @@
 body {
     background-color: black;
     margin: 0;
+    display: flex;
+    flex-flow: row;
+    line-height: 1.5;
 }
 
 .container-left {
@@ -65,4 +68,12 @@ body {
     width: auto;
     flex-shrink: 0;
     object-fit: contain;
+}
+
+.container-right {
+    display: flex;
+    background-color: rgb(250, 249, 249);
+    padding: 1rem;
+    font-family: "Coolvetica", sans-serif;
+    font-size: clamp(0.5rem, 0.5rem + 1vw, 1.5rem);
 }
